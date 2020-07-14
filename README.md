@@ -9,4 +9,6 @@ In the project directory, you can run:
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+And make sure to put your API_KEY of `unsplash` in unsplash.js
+
 ![](React_Image_Finder.gif)
