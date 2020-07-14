@@ -10,9 +10,6 @@ class ImageCard extends React.Component {
   }
 
   componentDidMount() {
-    //console.log(this.imageRef.current.clientHeight); // givees 0 why?
-    // bcz its to fast and images are (src) coming from unspplash so it take time so that why 0
-    // this.imageRef work fine bcz as long u click on it , it find that DOM then then then it gives us info not immidiatly
     this.imageRef.current.addEventListener("load", this.setSpans);
   }
 
